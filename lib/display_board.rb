@@ -2,11 +2,11 @@
 # out the current state.
 board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
 def display_board(board)
-  puts "   |   |   "
+  puts " O | X |   "
   puts "-----------"
-  puts "   |   |   "
+  puts "   | X |   "
   puts "-----------"
-  puts "   |   |   "
+  puts " X | O |   "
 end
 
 puts "The first player moves #{board[1]}"
