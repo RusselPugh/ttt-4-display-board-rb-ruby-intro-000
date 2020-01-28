@@ -10,4 +10,4 @@ def display_board(board)
 end
 
 puts "The first player moves #{board[1]}"
-display_board
+display_board(board)
